@@ -27,7 +27,10 @@ namespace Tema3_Calculador
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            Button boton = (Button)sender;
+            Viewbox viewBoxDentroBoton = (Viewbox)boton.Content;
+            Label labelDentroBoton = (Label)viewBoxDentroBoton.Child;
+            resultado.Text = resultado.Text + labelDentroBoton.Content;
         }
     }
 }

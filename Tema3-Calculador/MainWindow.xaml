@@ -17,7 +17,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Border BorderBrush="Black" BorderThickness="1" Margin="5">
-            <TextBlock x:Name="resultado" Text="" Grid.Row="0" ><Viewbox></Viewbox></TextBlock>
+            <TextBlock x:Name="resultado" Text="" Grid.Row="0" FontSize="48" FontWeight="Bold" ><Viewbox></Viewbox></TextBlock>
         </Border>
         <UniformGrid Grid.Row="1">
             <Button x:Name="uno" Margin="5" FontWeight="Bold" Click="Button_Click">
@@ -25,48 +25,48 @@
                     <Label>1</Label>
                 </Viewbox>
             </Button>
-            <Button Margin="5" FontWeight="Bold">
+            <Button Margin="5" FontWeight="Bold" Click="Button_Click">
                 <Viewbox>
                     <Label>2</Label>
                 </Viewbox>
             </Button>
-            <Button Margin="5" FontWeight="Bold">
+            <Button Margin="5" FontWeight="Bold" Click="Button_Click">
                 <Viewbox>
                     <Label>3</Label>
                 </Viewbox>
             </Button>
-            <Button Margin="5" FontWeight="Bold">
+            <Button Margin="5" FontWeight="Bold" Click="Button_Click">
                 <Viewbox>
                     <Label>4</Label>
                 </Viewbox>
             </Button>
-            <Button Margin="5" FontWeight="Bold">
+            <Button Margin="5" FontWeight="Bold" Click="Button_Click">
                 <Viewbox>
                     <Label>5</Label>
                 </Viewbox>
             </Button>
-            <Button Margin="5" FontWeight="Bold">
+            <Button Margin="5" FontWeight="Bold" Click="Button_Click">
                 <Viewbox>
                     <Label>6</Label>
                 </Viewbox>
             </Button>
-            <Button Margin="5" FontWeight="Bold">
+            <Button Margin="5" FontWeight="Bold" Click="Button_Click">
                 <Viewbox>
                     <Label>7</Label>
                 </Viewbox>
             </Button>
-            <Button Margin="5" FontWeight="Bold">
+            <Button Margin="5" FontWeight="Bold" Click="Button_Click">
                 <Viewbox>
                     <Label>8</Label>
                 </Viewbox>
             </Button>
-            <Button Margin="5" FontWeight="Bold">
+            <Button Margin="5" FontWeight="Bold" Click="Button_Click">
                 <Viewbox>
                     <Label>9</Label>
                 </Viewbox>
             </Button>
         </UniformGrid>
-        <Button Margin="5" Grid.Row="2" FontWeight="Bold">
+        <Button Margin="5" Grid.Row="2" FontWeight="Bold" Click="Button_Click">
             <Viewbox>
                 <Label>0</Label>
             </Viewbox>
